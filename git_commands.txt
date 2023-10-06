@@ -1,0 +1,64 @@
+# From Local to remote:
+
+1. Create new repo on github
+
+2. git init  (Initialize the git on local system)
+
+3. git add <file_name>  (Stage a file)
+   git add <dir_name>  (Stage a folder)
+   git add .  (Statge all files)
+
+4. git commit -m "some_message"  (Svae/commit the changes to local system)
+
+4. git remote add origin <link_of_repo>  (Set the repo link as origin)
+   OR
+   git remote set-url origin <link_of_repo>  (Change the repo link as origin)
+
+   git remote -v  (Check the current origin)
+
+5. git branch  (Check current branch)
+   git remote -M <new_name_of_branch>  (Rename the current branch)
+
+6. git push origin main  (Push the changes to remote repo)
+   OR
+   git push -u origin main  (Push the changes to remote repo & remember the origin main)
+   
+
+# Branches
+
+1. git branch  (Check current branch)
+
+2. git remote -M <new_name_of_branch>  (Rename the current branch)
+
+3. git checkout -b <new_branch_name>  (Create new branch and checkout to new branch)
+
+4. git branch -d <branch_name>  (Delete a branch)
+
+
+# Merging branches
+
+1. git diff <another_branch_name>
+
+2. git merge <another_branch_name>
+
+
+# Undoing changes
+
+1. git reset <file_name>  (Unstage a file)
+
+2. git reset  (Unstage all files)
+
+3. git reset HEAD~1  (Rollback git to just-reset commit)
+
+4. git reset <commit_hash>  (Rollback git to particular hash commit)
+
+5. git reset --hard <commit_hash>  (Rollback git to particular hash commit & also undo the code)
+
+
+# Useful commands
+
+git status  (To check status of git stage/commit)
+
+git rm example.html  (To remove a file and also stage it)
+
+git rm -r myfolder  (To remove a folder and also stage it)
