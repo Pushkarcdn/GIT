@@ -59,6 +59,8 @@
 
 git status  (To check status of git stage/commit)
 
+git log (check commits)
+
 git rm example.html  (To remove a file and also stage it)
 
 git rm -r myfolder  (To remove a folder and also stage it)
