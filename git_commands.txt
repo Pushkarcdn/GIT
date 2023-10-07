@@ -64,3 +64,9 @@ git log (check commits)
 git rm example.html  (To remove a file and also stage it)
 
 git rm -r myfolder  (To remove a folder and also stage it)
+
+git stash  (Reverts to the recent commit by unstaging all files and saving those changes in backstage)
+
+git stash pop  (Restage the stashed files and changes)
+
+git stash clear  (Clear the backstage / stashed files)
